@@ -1,0 +1,50 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+   /* Replace with the path to your background image */
+   background-image: url("C:\Users\Prameel\Desktop\pqr\test\pic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color:#ffffff ; /* Fallback background color */
+}
+
+.outlined-box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-box {
+  background-color: #3498db;
+  padding: 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.highlight-text {
+  color: #ffffff;
+}
+
+.input-box input[type="file"] {
+  margin: 10px 0;
+}
+
+.info-box {
+  margin: 20px 0;
+}
+
+button {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
